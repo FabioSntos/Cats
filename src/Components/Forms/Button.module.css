@@ -1,0 +1,19 @@
+.button {
+  font-size: 1rem;
+  font-family: var(--type-first);
+  cursor: pointer;
+  border: none;
+  border-radius: 0.4rem;
+  background: #1b8bd7;
+  color: #ffffff;
+  min-width: 8rem;
+  padding: 0.8rem 1.2rem;
+  box-sizing: border-box;
+  transition: 0.1s;
+}
+
+.button:hover,
+.button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #b6e1fe, 0 0 0 4px #1b8bd7;
+}
